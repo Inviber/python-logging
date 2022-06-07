@@ -2,6 +2,8 @@ import logging
 
 logging.basicConfig(level=logging.INFO, filename="log.log", filemode="w", format="%(asctime)s - %(levelname)s - %(message)s")
 
-x = 2
-
-logging.info(f"the value of x is {x}")
+try:
+    1 / 0
+except ZeroDivisionError as e:
+    #logging.error("ZeroDivisionError", exc_info=True)
+    logging.exception("ZeroDivisionError")
