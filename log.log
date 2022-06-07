@@ -1,5 +1,1 @@
-2022-06-07 14:00:54,825 - ERROR - ZeroDivisionError
-Traceback (most recent call last):
-  File "tutorial.py", line 6, in <module>
-    1 / 0
-ZeroDivisionError: division by zero
+2022-06-07 14:12:22,501 - INFO - test the custom logger
