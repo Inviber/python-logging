@@ -1,4 +1,4 @@
-INFO:root:info
-WARNING:root:warning
-ERROR:root:error
-CRITICAL:root:critical
+2022-06-07 13:55:38,140 - INFO - info
+2022-06-07 13:55:38,140 - WARNING - warning
+2022-06-07 13:55:38,140 - ERROR - error
+2022-06-07 13:55:38,140 - CRITICAL - critical
